@@ -11,8 +11,6 @@ pipeline{
             }
 
         }
-    }
-    stages{
         stage('test'){
             steps{
                 script{
@@ -22,8 +20,6 @@ pipeline{
                 }
             }
         }
-    }
-    stages{
         stege('deploy'){
             steps{
                 script{

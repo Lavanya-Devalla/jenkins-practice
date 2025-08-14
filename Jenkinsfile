@@ -20,7 +20,7 @@ pipeline{
                 }
             }
         }
-        stege('deploy'){
+        stage('deploy'){
             steps{
                 script{
                     sh '''

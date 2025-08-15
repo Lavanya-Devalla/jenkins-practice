@@ -54,7 +54,7 @@ pipeline{
                     string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
                 }
             }*/
-            when {branch 'main'}
+            when {branch 'Main'}
             steps{
                 script{
                     sh '''

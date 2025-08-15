@@ -97,6 +97,7 @@ pipeline{
     post {
         always{
             echo 'I will always say hello again'
+            delete Dir()
         }
         failure{
             echo' I will run when pipeline is failed'

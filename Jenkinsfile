@@ -14,6 +14,7 @@ pipeline{
                     sh '''
                      echo "hello, this is build"
                      echo "Project: $PROJECT"
+                     sleep 15
                      '''
                 }
             }
